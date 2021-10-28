@@ -180,115 +180,49 @@ void loop() {
 
   #define t9 = (led = 9; red = 160; green = 0; blue = 90; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
 
-    led = 10; red = 160; green = 0; blue = 100; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);
-   strip.show();
+  #define t10 = (led = 10; red = 160; green = 0; blue = 100; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
 
-    led = 11; red = 160; green = 0; blue = 110; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);
-   strip.show();
+  #define t11 = (led = 11; red = 160; green = 0; blue = 110; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
    
-    led = 12; red = 160; green = 0; blue = 120; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);
-   strip.show();
+  #define t12 = (led = 12; red = 160; green = 0; blue = 120; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
    
-    led = 13; red = 160; green = 0; blue = 130; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);
-   strip.show();
+  #define t13 = (led = 13; red = 160; green = 0; blue = 130; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
    
-   led = 14; red = 160; green = 0; blue = 140; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);  
-   strip.show();
+  #define t14 = (led = 14; red = 160; green = 0; blue = 140; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
   
-  led = 15; red = 160; green = 0; blue = 150; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait5);
-  strip.show();
+  #define t15 = (led = 15; red = 160; green = 0; blue = 150; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait5);strip.show();)
 
-  #define num11 led = 0; red = 160; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-  strip.show();
+  #define y0 = (led = 0; red = 160; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
   
-  led = 1; red = 150; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-  strip.show();
+  #define y1 = (led = 1; red = 150; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
      
-  led = 2; red = 140; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-  strip.show();
+  #define y2 = (led = 2; red = 140; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
   
-  led = 3; red = 130; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-  strip.show();
+  #define y3 = (led = 3; red = 130; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
   
-  led = 4; red = 120; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y4 = (led = 4; red = 120; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-  led = 5; red = 110; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y5 = (led = 5; red = 110; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
  
-  led = 6; red = 100; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y6 = (led = 6; red = 100; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-    led = 7; red = 90; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y7 = (led = 7; red = 90; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-    led = 8; red = 80; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y8 = (led = 8; red = 80; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-    led = 9; red = 70; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y9 = (led = 9; red = 70; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-    led = 10; red = 60; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y10 = (led = 10; red = 60; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
-    led = 11; red = 50; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y11 = (led = 11; red = 50; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
    
-    led = 12; red = 40; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y12 = (led = 12; red = 40; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
    
-    led = 13; red = 30; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-   strip.show();
+  #define y13 = (led = 13; red = 30; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
    
-   led = 14; red = 20; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);  
-   strip.show();
+  #define y14 = (led = 14; red = 20; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
   
-  led = 15; red = 10; green = 0; blue = 160; white = 0; 
-  strip.setPixelColor(led, red, green , blue, white);
-  delay(wait6);
-  strip.show();
+  #define y15 = (led = 15; red = 10; green = 0; blue = 160; white = 0; strip.setPixelColor(led, red, green , blue, white);delay(wait6);strip.show();)
 
 
 }
